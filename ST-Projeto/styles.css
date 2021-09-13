@@ -1,0 +1,191 @@
+:root{
+    
+    background: linear-gradient(455deg, rgb(238, 30, 110), #782cf3);
+    min-height: 100vh;
+    min-width: 100vw;  
+}
+
+.Tauz5{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #000;
+  }
+  .center{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .outer{
+    position: relative;
+    margin: 0 50px;
+    background: #7229e7;
+  }
+  .button{
+    height: 70px;
+    width: 220px;
+    right: 200px;
+    top: -628px;
+    border-radius: 20px;
+  }
+  .circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+  }
+  .outer button, .outer span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .outer button{
+    background: #111;
+    color: #f2f2f2;
+    outline: none;
+    border: 20px;
+    font-size: 20px;
+    z-index: 9;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .button button{
+    height: 60px;
+    width: 210px;
+    border-radius: 20px;
+  }
+  .circle button{
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+  }
+  .outer span{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+  }
+  .button span{
+    border-radius: 20px;
+  }
+  .circle span{
+    border-radius: 20px;
+  }
+  .outer:hover span:nth-child(1){
+    filter: blur(7px);
+  }
+  .outer:hover span:nth-child(2){
+    filter: blur(14px);
+  }
+  .outer:hover{
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: rotate 1.5s linear infinite;
+  }
+  @keyframes rotate {
+    0%{
+      filter: hue-rotate(0deg);
+    }
+    100%{
+      filter: hue-rotate(360deg);
+    }
+  }
+  @media (max-width: 640px){
+    .center{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .outer{
+      margin: 50px 0;
+    }
+  }
+
+html,body{
+  overflow: hidden;
+}
+
+ body{
+  margin: 10px;
+  position:absolute;
+  top: 30px;
+  right: 550px;
+  border: 1.6px solid
+}
+
+h1{
+    
+    color: rgb(255, 255, 255);
+    background-color: #7229e7;
+    box-shadow:  1px 4px 18px #6200ff;
+    border-radius: 15px;
+    border-style: solid;
+    padding: 10px;
+    right: 30px;
+    display: inline-block;
+}
+
+#Tauz{
+    
+    color: rgb(255, 255, 255);
+    border-radius: 35px;
+    padding: 10px;
+    background-color: #250657;
+    box-shadow:  1px 6px 40px #6200ff;
+    display: inline-block;
+    height: 700px;  
+}
+
+.samara:hover {
+  transform: scale(1.04);
+}
+
+.icaro{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-top: 250px;
+    border-style: solid;
+    box-shadow:  1px 3px 10px #7829f7;
+    background-color: #490fa7;
+    display: inline;  
+}
+
+.gabriel{
+  display: inline-block;
+  position: fixed;
+  width: 950px;
+  height: 100px;
+  top: 80px;
+  right: 1px;
+}
+
+#Tauz:hover{
+  box-shadow:  1px 3px 90px #6200ff;
+}
+
+li:hover{
+  font-size: 1.1em;
+}
+
+p {
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1%;
+    max-width: 600px;  
+}
+
+ul{
+  text-decoration:underline;
+  display: inline-block; 
+}
+
+a{
+  color: white;
+}
+
+a:active {
+  color: #6200ff;
+}
+
+
+
+
